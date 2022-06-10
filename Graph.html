@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Analysis</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/india.jpg">
+    <link rel="stylesheet" href="css/graph.css">
+   <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      
+      /* .scroll {
+    margin:4px, 4px;
+    padding:4px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+} */
+     
+    canvas{
+      /* margin-top: 600px; */
+      background-color: rgb(23, 219, 186) ;
+      color: black;
+    }
+    </style>
+  </head>
+  <body onload="fetchJSON()">
+    <div class="chartMenu">
+      <h1>Analysis Of problem being Added and Solved </h1>
+    </div >
+    <div class="scroll">
+    <div class="chartCard">
+     
+      <div class="chartBox">
+        <canvas 
+        aria-label="chart"
+        role="img"
+       
+        width="1200"
+        height="1500"
+        id="myChart"></canvas>
+        
+      </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js" 
+    integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg==" crossorigin="anonymous"
+     referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script> -->
+    
+    <script src="Javascript/ministrylogged.js"></script>
+
+  </body>
+</html>
