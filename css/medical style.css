@@ -1,0 +1,224 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.two img {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    clip-path: circle();
+    margin-left: 475px;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+.NISHA img {
+    width: 1400px;
+    height: 500px;
+    margin-top: 40px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+
+}
+
+.prat {
+    text-align: center;
+    color: darkblue;
+    font-family: Optima;
+    margin-top: 20px;
+}
+
+.three {
+    font-size: 20px;
+    font-family: Optima;
+    text-indent: 2%;
+
+}
+
+.four {
+    font-size: 20px;
+    font-family: Optima;
+    text-indent: 2%;
+
+}
+
+.five {
+    font-size: 20px;
+    font-family: Optima;
+    text-indent: 2%;
+
+}
+
+.six img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    clip-path: circle();
+    margin-left: 500px;
+    margin-bottom: 10px;
+    align-items: center;
+
+
+}
+
+.glass {
+    font-size: 25px;
+    font-family: Optima;
+    text-indent: 5%;
+    color: rgb(1, 41, 41);
+
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container2 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    color: royalblue;
+}
+
+.agri {
+    color: green;
+    font-family: Optima;
+    text-indent: 10%;
+
+}
+
+.agri1 {
+    font-family: Optima;
+    text-indent: 10%;
+    font-size: 20px;
+    font-color: black;
+}
+
+.seven img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    clip-path: circle();
+    margin-left: 500px;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.lass {
+    font-size: 25px;
+    font-family: Optima;
+    text-indent: 5%;
+    color: rgb(0, 29, 29);
+
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+
+.one img {
+    height: 94px;
+}
+
+
+
+@media(min-width:1200px) {}
+
+@media(max-width:990px) {
+    .two img {
+        width: 350px;
+        height: 350px;
+        margin-left: 120px;
+
+    }
+
+    .seven img {
+        width: 350px;
+        height: 350px;
+        margin-left: 300px;
+    }
+
+    .six img {
+        width: 350px;
+        height: 350px;
+        margin-left: 300px;
+    }
+
+    .NISHA img {
+        width: 800px;
+        height: 350px;
+    }
+
+}
+
+@media(max-width:800px) {
+    .two img {
+        width: 300px;
+        height: 300px;
+        margin-left: 170px;
+    }
+
+    .seven img {
+        width: 300px;
+        height: 300px;
+        margin-left: 170px;
+    }
+
+    .six img {
+        width: 300px;
+        height: 300px;
+        margin-left: 170px;
+    }
+
+    .NISHA img {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media(max-width:600px) {
+    .two img {
+        width: 250px;
+        height: 250px;
+        margin-left: 120px;
+    }
+
+    .seven img {
+        width: 250px;
+        height: 250px;
+        margin-left: 120px;
+    }
+
+    .six img {
+        width: 250px;
+        height: 250px;
+        margin-left: 120px;
+    }
+
+    .NISHA img {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media(min-width:480px) {}

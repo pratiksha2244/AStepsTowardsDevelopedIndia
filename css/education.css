@@ -1,0 +1,514 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { 
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    /* overflow-y: hidden; */
+    }
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   overflow-x: hidden;
+}
+
+.akam {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #fff;
+    box-shadow: 4px 0px 8px -4px #adacac;
+    border: 1px solid #ccc;
+    width: 12%;
+    position: fixed;
+    top: 50%;
+    z-index: 999;
+}
+/********************* Header ****************/
+/********************* Header1 ****************/
+/********************* Header Left PArt ****************/
+.header1 .lPart{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header1 .lPart p{
+    cursor: pointer;
+}
+/********************* Header Right Part ****************/
+.header1 .rPart{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.header1 .rPart p{
+    cursor: pointer;
+}
+/********************* Header2 ****************/
+.header2{
+    margin-left: 20px;
+}
+/* Title */
+.header2 .title{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.header2 .search{
+   margin-right: 30px;
+}
+/* Search styling */
+.header2 .search .search-eng{
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: white;
+}
+/* Sarch Engine Icon Styling */
+.search-eng i{
+   color: blue;
+   cursor: pointer;
+}
+@media all and (max-width:1440px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
+/* Media Queries For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+    .header1 .rPart{
+        margin-right: 80px;
+    }
+    .header2 .icon img{
+        margin-left: 50px;
+    }
+    .header2 .search .search-eng{
+       margin-left: 120px;
+   }
+   .header2 .search .search-eng input{
+       width: 350px;
+   }
+}
+/* Media Queries For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .header1 .rPart{
+        margin-left: 10px;
+    }
+    .header2 .icon {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .header2 .icon img{
+        margin-left: 80px;
+    }
+    .header2 .icon .title{
+        margin-left: -10px;
+        font-size: 15px;
+    }
+    .header2 .search{
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+    .header2 .search .search-eng input{
+        width: 180px;
+    }
+}
+/* ******* Header3 ****** */
+#navbar a{
+    margin-right: 70px;
+    font-size: 30px;
+}
+#navbarNav ul li a{
+    cursor: pointer;
+    padding: px;
+    font-size: 20px;
+    font-weight: bold;
+    color:wheat;
+}
+#navbarNav ul li a:hover{
+    color: rgb(0, 47, 255);
+}
+/* DropDown Ministry */
+#dropdown-ministry{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 250px;
+}
+/* DropDown Minister */
+#dropdown-minister{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 500px;
+}
+/* DropDown Contacts */
+#dropdown-contacts{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 750px;
+}
+/* DropDown Login */
+#dropdown-login{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 950px;
+}
+/* Media Queries for Drop down */
+/* Media Query For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+  /* DropDown Ministry */
+#dropdown-ministry{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Minister */
+#dropdown-minister{
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Contacts */
+#dropdown-contacts{
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Login */
+#dropdown-login{
+    width: 300px;
+    margin-left: 0px;
+}
+}
+/* Media Query For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    /* DropDown Ministry */
+  #dropdown-ministry{
+      background-color: #8d2b2b;
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Minister */
+  #dropdown-minister{
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Contacts */
+  #dropdown-contacts{
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Login */
+  #dropdown-login{
+      width: 300px;
+      margin-left: 0px;
+  }
+  }
+.header4 marquee{
+    background-color: bisque;
+    font-size: 20px;
+    color: orangered;
+}
+/* Media Queries For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+.navbar-toggler{
+   margin-left: 400px;
+}
+}
+/* Media Queries For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .navbar-toggler{
+        margin-left: 150px;
+    }
+}
+
+/* Main Content Styling */
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.two img {
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+    clip-path: circle();
+}
+
+.NISHA img {
+    width: 1350px;
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 10px 15px 15px rgb(29, 31, 28);
+}
+
+
+
+.prat {
+    color: rgb(19, 20, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 5px 15px rgb(46, 48, 45) ;
+}
+
+.para {
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(20, 214, 248);
+    text-shadow:1px 5px 15px rgba(139, 139, 241, 0.904); 
+}
+
+.six img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left:20px;
+    clip-path: circle();
+    margin-bottom: 10px;
+}
+
+.glass {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-indent: 5%; */
+    color: rgb(12, 54, 4);
+
+
+}
+
+.container {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    color: royalblue;
+}
+
+@media all and (max-width:1024px){
+    .two img {
+        width: 300px;
+        height: 300px;
+        margin-top: 40px;
+        clip-path: circle();
+    }
+    .NISHA img {
+        width: 950px;
+        height: 350px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-shadow: 10px 15px 15px rgb(142, 219, 69);
+    }
+    .six img {
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left:20px;
+        clip-path: circle();
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width:768px){
+    .NISHA img {
+        width: 650px;
+        height: 250px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-shadow: 10px 15px 15px rgb(142, 219, 69);
+    }
+    .six img {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left:20px;
+        clip-path: circle();
+        margin-bottom: 10px;
+    }
+    .glass {
+        font-size: 30px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(12, 54, 4); */
+    }
+    .para{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:426px){
+    .two img {
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+        clip-path: circle();
+    }
+    .prat{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 10px;
+    }
+    .NISHA img {
+        width: 300px;
+        height: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-shadow: 10px 15px 15px rgb(142, 219, 69);
+    }
+    .six img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left:20px;
+        clip-path: circle();
+        margin-bottom: 10px;
+    }
+    .glass {
+        font-size: 20px;
+    }
+    /* .footer1{
+        margin-top: -2000px;
+    } */
+}
+@media all and (max-width:320px){
+    .two img {
+        width: 150px;
+        height: 150px;
+        margin-top: 40px;
+        clip-path: circle();
+    }
+    .prat{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 10px;
+    }
+    .NISHA img {
+        width: 250px;
+        height: 150px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-shadow: 10px 15px 15px rgb(142, 219, 69);
+    }
+    .six img {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left:20px;
+        clip-path: circle();
+        margin-bottom: 10px;
+    }
+    .glass {
+        font-size: 20px;
+    }
+    /* .footer1{
+        margin-top: -2000px;
+    } */
+}
+@media only screen and (max-width:320px){
+    .footer1{ 
+        margin-left: 20px;
+        margin-top: 50px;
+        }
+}
+/* Media Queries For Mobile Screen Devices   */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .footer1{ 
+        margin-left: 120px;
+        margin-top: 50px;
+        }
+}
+/* Footer  */
+.footer1{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.footer1 a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer1 a:hover{
+    color: #7034d9;
+}
+/* Media Queries For Tablet Screen Devices   */
+@media only screen and (min-width:768px) and (max-width:900px){
+    .footer1{ margin-left: 180px;
+    text-decoration: none;
+    }
+} 
+/* Media Queries For Mobile Screen Devices   */
+/* @media only screen and (min-width:425px) and (max-width:767px){
+    .footer1{ 
+        margin-left: 120px;
+        margin-top: -420px;
+        }
+} */
+/* Footer 2 */
+.footer2 {
+    margin-top: 20px;
+   background-color: #484848;
+   text-align: center;
+}
+/* Footer2 Images Styling */
+.footer2 .ports img{
+    cursor: pointer;
+    margin: 20px 0px 20px 50px;
+    width: 150px;
+    height: 50px;
+}
+/* Media Queria For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .footer2 .ports img{
+        margin-left: 20px;
+    }
+}
+/* Footer3 */
+/* Right part of last footer */
+.footer3 .r{
+  margin-left: 20px;
+}
+/* Icons of social media */
+.footer3 ul li{
+  list-style-type:none;
+  padding: 20px;
+  margin-right: 20px;
+}
+.footer3 ul li a{
+    padding-right:10px;
+}
+.footer3 .l img{
+    width: 2em;
+}
+
+/*** up arrow ****/
+
+#arrow  {
+    font-size: 50px;
+    color: yellowgreen;
+    position: sticky;
+    left: 900px;
+    bottom: 50px;
+    cursor: pointer;
+    margin-left: 1380px;
+}
+/* Additional Styles for Javascript */
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+.sticky{
+    position: fixed;
+    margin: auto;
+    box-shadow: 0px 10px 20px rgb(221, 158, 158);
+    z-index: 1000;
+    behavior: smooth;
+}
+
+

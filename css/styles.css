@@ -1,0 +1,923 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   overflow-x: hidden;
+   /* overflow-y: hidden; */
+}
+
+.akam {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #fff;
+    box-shadow: 4px 0px 8px -4px #adacac;
+    border: 1px solid #ccc;
+    width: 12%;
+    position: fixed;
+    top: 50%;
+    z-index: 999;
+}
+/********************* Header ****************/
+/********************* Header1 ****************/
+/********************* Header Left PArt ****************/
+.header1 .lPart{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header1 .lPart p{
+    cursor: pointer;
+}
+/********************* Header Right Part ****************/
+.header1 .rPart{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.header1 .rPart p{
+    cursor: pointer;
+}
+#google_element{
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+/********************* Header2 ****************/
+.header2{
+    margin-left: 20px;
+}
+/* Title */
+.header2 .title{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.header2 .search{
+   margin-right: 30px;
+}
+/* Search styling */
+.header2 .search .search-eng{
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: white;
+}
+/* Sarch Engine Icon Styling */
+.search-eng i{
+   color: blue;
+   cursor: pointer;
+}
+@media all and (max-width:1440px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
+/* Media Queries For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+    body{
+        overflow-x: hidden;
+    }
+    .header1 .rPart{
+        margin-right: 80px;
+    }
+    .header2 .icon img{
+        margin-left: 50px;
+    }
+    .header2 .search .search-eng{
+       margin-left: 120px;
+   }
+   .header2 .search .search-eng input{
+       width: 350px;
+   }
+}
+/* Media Queries For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .header1 .rPart{
+        margin-left: 10px;
+    }
+    .header2 .icon {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .header2 .icon img{
+        margin-left: 80px;
+    }
+    .header2 .icon .title{
+        margin-left: -10px;
+        font-size: 15px;
+    }
+    .header2 .search{
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+    .header2 .search .search-eng input{
+        width: 180px;
+    }
+}
+/* ******* Header3 ****** */
+#navbar a{
+    margin-right: 70px;
+    font-size: 30px;
+}
+#navbarNav ul li a{
+    cursor: pointer;
+    padding: px;
+    font-size: 20px;
+    font-weight: bold;
+    color:wheat;
+}
+#navbarNav ul li a:hover{
+    color: rgb(0, 47, 255);
+}
+/* DropDown Ministry */
+#dropdown-ministry{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 250px;
+}
+/* DropDown Minister */
+#dropdown-minister{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 500px;
+}
+/* DropDown Contacts */
+#dropdown-contacts{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 750px;
+}
+/* DropDown Login */
+#dropdown-login{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 950px;
+}
+/* Media Queries for Drop down */
+/* Media Query For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+  /* DropDown Ministry */
+#dropdown-ministry{
+    background-color: #8d2b2b;
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Minister */
+#dropdown-minister{
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Contacts */
+#dropdown-contacts{
+    width: 300px;
+    margin-left: 0px;
+}
+/* DropDown Login */
+#dropdown-login{
+    width: 300px;
+    margin-left: 0px;
+}
+}
+/* Media Query For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    /* DropDown Ministry */
+  #dropdown-ministry{
+      background-color: #8d2b2b;
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Minister */
+  #dropdown-minister{
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Contacts */
+  #dropdown-contacts{
+      width: 300px;
+      margin-left: 0px;
+  }
+  /* DropDown Login */
+  #dropdown-login{
+      width: 300px;
+      margin-left: 0px;
+  }
+  }
+.header4 marquee{
+    background-color: bisque;
+    font-size: 20px;
+    color: orangered;
+}
+/* Media Queries For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+.navbar-toggler{
+   margin-left: 400px;
+}
+}
+/* Media Queries For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .navbar-toggler{
+        margin-left: 150px;
+    }
+}
+
+
+/* ******** MAIN ********* */
+#carouselExampleIndicators{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+/* CArousel Item Image */
+.carousel-item img{
+    position: relative;
+    width: 1200px;
+    height: 650px;
+}
+/* Carousel item Heading */
+.carousel-item h5{
+    position: absolute;
+    margin-left: 300px;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.carousel-item p{
+    margin-top: 30px;
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.carousel-control-next-icon{
+    margin-right: 150px;
+}
+@media only screen and (max-width:1240px){
+    #carouselExampleIndicators{
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    .carousel-item img{
+        position: relative;
+        width: 850px;
+        height: 450px;
+        
+    } 
+    .carousel-item h5{
+        position: absolute;
+        margin-left: 110px;
+        color: rgb(230, 15, 15);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .carousel-item p{
+        margin-top: 30px;
+        color: rgb(17, 0, 248);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .carousel-control-next-icon{
+        margin-right: 350px;
+    }
+}
+/* Media Queries For Tablet Screen Devices */
+@media only screen and (min-width:768px) and (max-width:900px){
+    .akam{
+        visibility: hidden;
+    }
+    #carouselExampleIndicators{
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+    .carousel-item img{
+        position: relative;
+        width: 550px;
+        height: 350px;
+        
+    } 
+    .carousel-item h5{
+        position: absolute;
+        margin-left: 110px;
+        color: rgb(230, 15, 15);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .carousel-item p{
+        margin-top: 30px;
+        color: rgb(17, 0, 248);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .carousel-control-next-icon{
+        margin-right: 350px;
+    }
+}
+
+/* Media Queries Of Carousel For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .akam{
+        visibility: hidden;
+    }
+    #carouselExampleIndicators{
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+    .carousel-item img{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        
+    } 
+    .carousel-item h5{
+       visibility: hidden;
+    }
+    .carousel-item p{
+      visibility: hidden;
+    }
+    .carousel-control-next-icon{
+        margin-right: 150px;
+    }
+}
+
+@media all and (max-width:412px){
+  .akam{
+      visibility: hidden;
+  }
+  #carouselExampleIndicators{
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.carousel-item img{
+    position: relative;
+    width: 240px;
+    height: 150px;
+    
+} 
+.carousel-item h5{
+   visibility: hidden;
+}
+.carousel-item p{
+  visibility: hidden;
+}
+.carousel-control-next-icon{
+    margin-right: 150px;
+}
+}
+
+/* Put Image In Circular Fashion */
+main .information{
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.main1 .leftpart .images img{
+    clip-path: circle();
+    cursor: pointer;
+    padding: 20px;
+}
+.main1 .leftpart .images{
+    margin-left: 80px;
+    margin-top: 50px;
+    transform: rotate(45deg);
+}
+/* Main Food Image */
+.main1 .leftpart .food{
+    width: 230px;
+    height: 230px;
+    transform: rotate(-45deg);
+}
+/* Main Justice */
+.main1 .leftpart .justice{
+    width: 230px;
+    height: 230px;
+    transform: rotate(-45deg);
+}
+/* Main Agriculture */
+.main1 .leftpart .plant{
+    width: 230px;
+    height: 230px;
+    transform: rotate(-45deg);
+}
+/* Main Technology */
+.main1 .leftpart .tech{
+    width: 230px;
+    height: 230px;
+    transform: rotate(-45deg);
+}
+/* Middle Section */
+.middle h3{
+    margin-right: 600px;
+}
+.middle i{
+   font-size: 80px;
+   margin-left: 90px;
+   color:blue;
+}
+
+/* Right Section */
+.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+   /* Submit Query */
+   .rightpart .container {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -600px;
+    margin-left: 620px;
+}
+
+/* Card Sizing */
+.rightpart .container .card {
+    width: 500px;
+    box-shadow: 40px 20px 40px 2px;
+    font-weight: bold;
+
+}
+
+.rightpart .container .card h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+/* Fieldset styling */
+.rightpart .container fieldset {
+    font-size: 20px;
+}
+
+/* State input */
+.rightpart .container #inputState {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+/* District Input */
+.rightpart .container #inputDistrict {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+/* Ministry Input */
+.rightpart .container #ministry {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+.rightpart .container #description {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+/* Password */
+.rightpart .container #password {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+/* Field set Text Size */
+.rightpart .container fieldset label {
+    font-size: 18px;
+}
+
+/* Submit Button */
+.rightpart .container .submits {
+    text-align: center;
+    margin-top: 20px;
+}
+/* Input Date */
+.rightpart .container #date{
+    width: 400px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+/* Login Button Styling */
+.rightpart .container button {
+    background: #7034d9;
+    background-image: -webkit-linear-gradient(top, #7034d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #7034d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #7034d9, #2980b9);
+    background-image: -o-linear-gradient(top, #7034d9, #2980b9);
+    background-image: linear-gradient(to bottom, #7034d9, #2980b9);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px 10px;
+    width: 150px;
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rightpart .container button span{
+    text-decoration: none;
+    color: aliceblue;
+}
+.rightpart .container button:hover {
+    background: #fcc63c;
+    background-image: -webkit-linear-gradient(top, #fcc63c, #e8107c);
+    background-image: -moz-linear-gradient(top, #fcc63c, #e8107c);
+    background-image: -ms-linear-gradient(top, #fcc63c, #e8107c);
+    background-image: -o-linear-gradient(top, #fcc63c, #e8107c);
+    background-image: linear-gradient(to bottom, #fcc63c, #e8107c);
+    text-decoration: none;
+}
+@media only screen and (max-width:1440px){
+    .main1 .rightpart .container{
+        margin-left: -5px;
+        margin-top: -50px;
+    }
+}
+@media only screen and (max-width:1240px){
+    .main1 .leftpart{
+        visibility: hidden;
+    }
+    .main1 .rightpart .container{
+        margin-left: 150px;
+        margin-top: -550px;
+    }
+}
+/* Media Queries For Tablet */
+@media only screen and (min-width:768px) and (max-width:900px){
+    .main1 .leftpart{
+        visibility: hidden;
+    }
+    .main1 .middle{
+        visibility: hidden;
+    }
+    .main1 .rightpart .container{
+        margin-left: 80px;
+        margin-top: -550px;
+    }
+}
+/* Media Queries for Mobile Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .main1 .leftpart{
+        visibility: hidden;
+    }
+    .main1 .middle{
+        visibility: hidden;
+    }
+    .main1 .rightpart .container{
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1000px;
+        margin-left: 10px;
+       
+    }
+    .rightpart .container .card {
+        width: 380px;
+        box-shadow: 40px 20px 40px 2px;
+        font-weight: bold;
+    
+    }
+    
+    .rightpart .container .card h2 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    
+    }
+    
+    /* Fieldset styling */
+    .rightpart .container fieldset {
+        font-size: 20px;
+    }
+    
+    /* State input */
+    .rightpart .container #inputState {
+        font-size: 20px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    
+    /* District Input */
+    .rightpart .container #inputDistrict {
+        font-size: 20px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    
+    /* Ministry Input */
+    .rightpart .container #ministry {
+        font-size: 20px;
+        width: 280px;
+        margin-left: 20px;
+    }
+    /* Input Date */
+    .rightpart .container #date{
+        width: 280px;
+        text-transform: capitalize;
+        margin-left: 20px;
+    }
+    
+    /* Description */
+    .rightpart .container #description {
+        font-size: 20px;
+        width: 280px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    /* Password label */
+    .rightpart .container .pass{
+        margin-top: 20px;
+    }
+    /* Password */
+    .rightpart .container #password {
+        font-size: 20px;
+        width: 280px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+    
+    /* Field set Text Size */
+    .rightpart .container fieldset label {
+        font-size: 18px;
+    }
+    
+    /* Submit Button */
+    .rightpart .container .submits {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    /* Login Button Styling */
+    .rightpart .container button {
+        background: #7034d9;
+        background-image: -webkit-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -moz-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -ms-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -o-linear-gradient(top, #7034d9, #2980b9);
+        background-image: linear-gradient(to bottom, #7034d9, #2980b9);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px 10px;
+        width: 150px;
+        font-family: Georgia;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .rightpart .container button span{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .rightpart .container button:hover {
+        background: #fcc63c;
+        background-image: -webkit-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -moz-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -ms-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -o-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: linear-gradient(to bottom, #fcc63c, #e8107c);
+        text-decoration: none;
+    }
+}
+@media all and (max-width:767px){
+    /* .carou{
+        visibility: hidden;
+    } */
+   
+    .main1 .rightpart .container{
+       display: none;
+    }
+}
+@media all and (max-width:412px){
+    .information h1{
+        font-size: 30px;
+    }
+    .main1 .leftpart{
+        visibility: hidden;
+    }
+    .main1 .middle{
+        visibility: hidden;
+    }
+    .main1 .rightpart .container{
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1000px;
+        margin-left: 10px;
+       
+    }
+    .rightpart .container .card {
+        width: 300px;
+        box-shadow: 40px 20px 40px 2px;
+        font-weight: bold;
+    
+    }
+    
+    .rightpart .container .card h2 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    
+    }
+    
+    /* Fieldset styling */
+    .rightpart .container fieldset {
+        font-size: 15px;
+    }
+    
+    /* State input */
+    .rightpart .container #inputState {
+        font-size: 20px;
+        width: 200px;
+        margin-left: 20px;
+    }
+    
+    /* District Input */
+    .rightpart .container #inputDistrict {
+        font-size: 20px;
+        width: 200px;
+        margin-left: 20px;
+    }
+    
+    /* Ministry Input */
+    .rightpart .container #ministry {
+        font-size: 20px;
+        width: 200px;
+        margin-left: 20px;
+    }
+    /* Input Date */
+    .rightpart .container #date{
+        width: 200px;
+        text-transform: capitalize;
+        margin-left: 20px;
+    }
+    
+    /* Description */
+    .rightpart .container #description {
+        font-size: 20px;
+        width: 200px;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    /* Password label */
+    .rightpart .container .pass{
+        margin-top: 20px;
+    }
+    /* Password */
+    .rightpart .container #password {
+        font-size: 20px;
+        width: 200px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+    
+    /* Field set Text Size */
+    .rightpart .container fieldset label {
+        font-size: 18px;
+    }
+    
+    /* Submit Button */
+    .rightpart .container .submits {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    /* Login Button Styling */
+    .rightpart .container button {
+        background: #7034d9;
+        background-image: -webkit-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -moz-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -ms-linear-gradient(top, #7034d9, #2980b9);
+        background-image: -o-linear-gradient(top, #7034d9, #2980b9);
+        background-image: linear-gradient(to bottom, #7034d9, #2980b9);
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px 10px;
+        width: 100px;
+        font-family: Georgia;
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .rightpart .container button span{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .rightpart .container button:hover {
+        background: #fcc63c;
+        background-image: -webkit-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -moz-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -ms-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: -o-linear-gradient(top, #fcc63c, #e8107c);
+        background-image: linear-gradient(to bottom, #fcc63c, #e8107c);
+        text-decoration: none;
+    }
+}
+
+/* Footer  */
+.footer1{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.footer1 a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer1 a:hover{
+    color: #7034d9;
+}
+/* Media Queries For Tablet Screen Devices   */
+@media only screen and (min-width:768px) and (max-width:900px){
+    .footer1{ margin-left: 180px;
+    text-decoration: none;
+    }
+} 
+/* Media Queries For Mobile Screen Devices   */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .footer1{ 
+        margin-left: 120px;
+        margin-top: -420px;
+        }
+}
+@media all and (max-width:412px){
+    .footer1{ 
+        margin-left: 100px;
+        margin-top: -400px;
+        }
+}
+/* Footer 2 */
+.footer2 {
+    margin-top: 20px;
+   background-color: #484848;
+   text-align: center;
+}
+/* Footer2 Images Styling */
+.footer2 .ports img{
+    cursor: pointer;
+    margin: 20px 0px 20px 50px;
+    width: 150px;
+    height: 50px;
+}
+/* Media Queria For Mobile Screen Devices */
+@media only screen and (min-width:425px) and (max-width:767px){
+    .footer2 .ports img{
+        margin-left: 20px;
+    }
+}
+/* Footer3 */
+/* Right part of last footer */
+.footer3 .r{
+  margin-left: 20px;
+}
+/* Icons of social media */
+.footer3 ul li{
+  list-style-type:none;
+  padding: 20px;
+  margin-right: 20px;
+}
+.footer3 ul li a{
+    padding-right:10px;
+}
+.footer3 .l img{
+    width: 2em;
+}
+
+/*** up arrow ****/
+
+#arrow  {
+    font-size: 50px;
+    color: yellowgreen;
+    position: sticky;
+    left: 900px;
+    bottom: 50px;
+    cursor: pointer;
+    margin-left: 1380px;
+}
+/* Additional Styles for Javascript */
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+.sticky{
+    position: fixed;
+    margin: auto;
+    box-shadow: 0px 10px 20px rgb(221, 158, 158);
+    z-index: 1000;
+    behavior: smooth;
+}
+
+
